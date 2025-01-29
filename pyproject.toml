@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "data-engineering-agent"
+version = "0.1.0"
+description = ""
+authors = ["sametkaradag <sametkaradag@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-cloud-bigquery = "^3.29.0"
+google-cloud-dataform = "^0.5.14"
+vertexai = "^1.71.1"
+langchain-core = "^0.3.32"
+langchain = "^0.3.16"
+langgraph = "^0.2.68"
+pydantic = "^2.10.6"
+pyyaml = "^6.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
